@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="kalk.css">
+        <script src="arvuta.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Calculator App</h1>
+        <br>
+        <div class="calculator">
+            
+            <div class="keys">
+                <input type="text" class="output" id="result" autocomplete="off"></input>
+                <button type="button" value="C" class="clear" onclick="clearScreen()">C</button>
+                <button type="button" value="7" class="key_button" onclick="display('7')">7</button>
+                <button type="button" value="8" class="key_button" onclick="display('8')">8</button>
+                <button type="button" value="9" class="key_button" onclick="display('9')">9</button>
+                <button type="button" value="/" class="operator_button" onclick="display('/')">/</button>
+                <button type="button" value="4" class="key_button" onclick="display('4')">4</button>
+                <button type="button" value="5" class="key_button" onclick="display('5')">5</button>
+                <button type="button" value="6" class="key_button" onclick="display('6')">6</button>
+                <button type="button" value="*" class="operator_button" onclick="display('*')">*</button>
+                <button type="button" value="1" class="key_button" onclick="display('1')">1</button>
+                <button type="button" value="2" class="key_button" onclick="display('2')">2</button>
+                <button type="button" value="3" class="key_button" onclick="display('3')">3</button>
+                <button type="button" value="-" class="operator_button" onclick="display('-')">-</button>
+                <button type="button" value="0" class="key_button" onclick="display('0')">0</button>
+                <button type="button" value="." class="key_button" onclick="display('.')">.</button>
+                <button type="button" value="=" class="equal_button" onclick="solve()">=</button>
+                <button type="button" value="+" class="operator_button" onclick="display('+')">+</button>
+                <button type="button" value="(" class="operator_button" onclick="display('(')">(</button>
+                <button type="button" value=")" class="operator_button" onclick="display(')')">)</button>
+            </div>            
+        </div>
+    </body>
+</html>

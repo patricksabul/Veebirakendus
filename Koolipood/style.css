@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: darkkhaki;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+body {
+    margin: 0;
+}
+
+
+.inner_header{
+    width: 750px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 29.5%;
+    margin-right: 37.5%;
+    background-color: bisque;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color:olive;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+.logo_container h1 span{
+    font-weight: 200;
+}
+
+.navigation{
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.navigation a li:hover{
+    color: #101010;
+    font-weight: 600;
+   }
+   
+   .navigation a:hover{
+    background-color: white;
+   }
+
+   .topnav{
+   margin-left: 2000px;
+   margin-top: 25px;
+   width: 15vw;
+       
+   }
+   .topnav input{
+       width: 200px;
+       height: 25px;
+       position:  sticky;
+   }
+   
+   .searchButton{
+       
+
+       width: 35px;
+       height: 40px;
+       border:1px solid black;
+       background: olive;
+       text-align: center;
+       color: #fff;
+       border-radius: 0 5px 5px 0;
+       cursor: pointer;
+       font-size: 20px;
+        position:  sticky;
+   }
+   .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .searchTerm {
+    width: 100%;
+    border: 3px solid olive;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+  }
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .list{
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+  }

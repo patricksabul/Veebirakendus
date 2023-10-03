@@ -1,0 +1,53 @@
+
+.column{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    float: left;
+    width: 15%;
+    height: 100vh;
+    
+    background-color: rosybrown;
+}
+.pilt{
+    display: block;
+    margin-left: 12%;  
+}
+.head2{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.kogemus{
+    width: 100%;
+    background-color: grey;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    border-bottom: 5px solid rosybrown;
+}
+.hobi{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    background-color: antiquewhite;
+    width: 100%;
+    border-bottom: 5px solid rosybrown;
+}
+.oskus{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    background-color: antiquewhite    ;
+    width: 100%;
+    border-bottom: 5px solid rosybrown;
+}
+.kontakt{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    background-color: antiquewhite    ;
+    width: 100%;
+    border-bottom: 5px solid rosybrown;
+}
+.töökoht{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    background-color: silver    ;
+    width: 100%;
+    border-bottom: 5px solid rosybrown;
+}
